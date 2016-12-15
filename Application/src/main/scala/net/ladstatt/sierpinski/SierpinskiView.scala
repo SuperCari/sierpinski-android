@@ -20,7 +20,7 @@ class SierpinskiView(val context: Context, val attrs: AttributeSet) extends View
   val paint = new Paint()
 
   paint.setStrokeWidth(4)
-  paint.setColor(Color.BLUE)
+  paint.setColor(Color.MAGENTA)
 
   def drawSierpinski(sierpinski: Sierpinski,canvas:Canvas,paint:Paint) {
 
