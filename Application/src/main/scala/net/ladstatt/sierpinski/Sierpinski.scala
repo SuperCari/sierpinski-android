@@ -6,7 +6,7 @@ package net.ladstatt.sierpinski
 
 
 case class Pos(var x:Float, var y:Float)
-case class Triangle(var a:Pos, var b:Pos, var c:Pos, var color:SColor,var counter:Int = 4) {
+case class Triangle(var a:Pos, var b:Pos, var c:Pos, var color:SColor,var counter:Int = 7) {
   var siblings: List[Triangle] = List.empty[Triangle]
   var centerT: Triangle = _
   if (counter == 0) {

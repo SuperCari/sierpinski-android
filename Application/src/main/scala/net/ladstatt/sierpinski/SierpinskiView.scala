@@ -19,7 +19,7 @@ class SierpinskiView(val context: Context, val attrs: AttributeSet) extends View
 
   val paint = new Paint()
 
-  paint.setStrokeWidth(4)
+  paint.setStrokeWidth(2)
   paint.setColor(Color.MAGENTA)
 
   def drawSierpinski(sierpinski: Sierpinski,canvas:Canvas,paint:Paint) {
@@ -41,7 +41,7 @@ class SierpinskiView(val context: Context, val attrs: AttributeSet) extends View
   }
 
   override def onDraw(canvas:Canvas) {
-    drawSierpinski(Sierpinski(Triangle(Pos(0, 0), 1080), 5), canvas, paint)
+    drawSierpinski(Sierpinski(Triangle(Pos(0, 0), 1080), 7), canvas, paint)
 
 
 
