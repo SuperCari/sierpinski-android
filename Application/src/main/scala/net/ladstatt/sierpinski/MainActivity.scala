@@ -1,6 +1,7 @@
 package net.ladstatt.sierpinski
 
 import android.app.Activity
+import android.net.sip.SipRegistrationListener
 import android.os.Bundle
 
 class MainActivity extends Activity {
@@ -8,5 +9,6 @@ class MainActivity extends Activity {
   override protected def onCreate(savedInstanceState: Bundle) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.layout_mainactivity)
+
   }
 }
